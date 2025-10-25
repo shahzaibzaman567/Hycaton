@@ -1,6 +1,6 @@
 // src/pages/Cart.jsx
 import React, { useContext, useEffect } from "react";
-import { CartContext } from "../context/cartcontext";
+import { CartContext } from "../context/CartContext.jsx";
 import CartItem from "../cartItem";
 import { Link } from "react-router-dom";
 import { ToggleContext } from "../context/ToogleBtn";

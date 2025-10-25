@@ -1,6 +1,6 @@
 // src/pages/Checkout.jsx
 import React, { useContext, useState } from "react";
-import { CartContext } from "../context/cartcontext";
+import { CartContext } from "../context/CartContext.jsx";
 import { ToggleContext } from "../context/ToogleBtn";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
