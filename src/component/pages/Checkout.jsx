@@ -1,7 +1,7 @@
 // src/pages/Checkout.jsx
 import React, { useContext, useState } from "react";
-import { CartContext } from "../context.jsx/cartcontext";
-import { ToggleContext } from "../context.jsx/ToogleBtn";
+import { CartContext } from "../context/cartcontext";
+import { ToggleContext } from "../context/ToogleBtn";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import "./Checkout.css"; // CSS file for placeholder styles

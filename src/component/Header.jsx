@@ -1,8 +1,8 @@
 // src/components/Header.jsx
 import React, { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { CartContext } from "./context.jsx/cartcontext";
-import { ToggleContext } from "./context.jsx/ToogleBtn";
+import { CartContext } from "./context/cartcontext";
+import { ToggleContext } from "./context/ToogleBtn";
 import { FaShoppingCart, FaMoon, FaSun } from "react-icons/fa";
 import "./Header.css";
 

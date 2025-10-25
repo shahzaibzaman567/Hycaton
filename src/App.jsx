@@ -1,7 +1,8 @@
 // ✅ App.jsx
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { CartProvider } from "./component/context.jsx/cartcontext";
+// import { CartProvider } from "./component/context/CartContext.jsx";
+import { CartProvider } from "./component/context/cartcontext";
 import Header from "./component/header";
 import Home from "./component/pages/Home";
 import Cart from "./component/pages/cart";

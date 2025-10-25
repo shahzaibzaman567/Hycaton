@@ -2,8 +2,8 @@
 import React, { useEffect, useState, useContext } from "react";
 import ProductCard from "../ProductCard";
 import Loader from "./loader";
-import { CartContext } from "../context.jsx/cartcontext";
-import { ToggleContext } from "../context.jsx/ToogleBtn";
+import { CartContext } from "../context/cartcontext";
+import { ToggleContext } from "../context/ToogleBtn";
 import { motion, AnimatePresence } from "framer-motion";
 import "./Home.css";
 

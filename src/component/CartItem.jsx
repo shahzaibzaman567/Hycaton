@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { FaTrash } from "react-icons/fa";
-import { ToggleContext } from "./context.jsx/ToogleBtn";// ToggleContext import
+import { ToggleContext } from "./context/ToogleBtn";// ToggleContext import
 
 const CartItem = ({ item, onRemove, onChangeQty }) => {
   const { isDark } = useContext(ToggleContext); // dark/light mode state

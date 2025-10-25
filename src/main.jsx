@@ -5,7 +5,7 @@ import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
-import { ToggleProvider } from "./component/context.jsx/ToogleBtn.jsx";
+import { ToggleProvider } from "./component/context/ToogleBtn.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
