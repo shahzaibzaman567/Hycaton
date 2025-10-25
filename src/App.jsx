@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import './App.css'
 
-
 function App() {
 
   return (
     <>
     
-    <h1>Haycaton</h1>
+    <h1 style={{textAlign:"center"}}>Haycaton</h1>
+     <br />
+
     </>
   )
 }
