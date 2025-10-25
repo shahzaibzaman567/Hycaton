@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ToggleContext } from "./context/ToogleBtn";// dark/light context
+import { ToggleContext } from "./context/ToogleBtn.jsx";// dark/light context
 
 const ProductCard = ({ product, onAdd }) => {
   const { isDark } = useContext(ToggleContext);

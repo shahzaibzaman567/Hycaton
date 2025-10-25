@@ -1,9 +1,9 @@
 // src/pages/Home.jsx
 import React, { useEffect, useState, useContext } from "react";
-import ProductCard from "../ProductCard";
-import Loader from "./loader";
+import ProductCard from "../ProductCard.jsx";
+import Loader from "./loader.jsx";
 import { CartContext } from "../context/CartContext.jsx";
-import { ToggleContext } from "../context/ToogleBtn";
+import { ToggleContext } from "../context/ToogleBtn.jsx";
 import { motion, AnimatePresence } from "framer-motion";
 import "./Home.css";
 

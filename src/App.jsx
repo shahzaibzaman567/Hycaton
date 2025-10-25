@@ -3,10 +3,10 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 // import { CartProvider } from "./component/context/CartContext.jsx";
 import { CartProvider } from "./component/context/CartContext.jsx";
-import Header from "./component/header";
-import Home from "./component/pages/Home";
-import Cart from "./component/pages/cart";
-import Checkout from "./component/pages/checkout";
+import Header from "./component/Header.jsx";
+import Home from "./component/pages/Home.jsx";
+import Cart from "./component/pages/Cart.jsx";
+import Checkout from "./component/pages/Checkout.jsx";
 
 const App = () => {
   return (

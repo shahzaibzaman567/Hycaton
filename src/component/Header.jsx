@@ -2,7 +2,7 @@
 import React, { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { CartContext } from "./context/CartContext.jsx";
-import { ToggleContext } from "./context/ToogleBtn";
+import { ToggleContext } from "./context/ToogleBtn.jsx";
 import { FaShoppingCart, FaMoon, FaSun } from "react-icons/fa";
 import "./Header.css";
 

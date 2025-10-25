@@ -1,9 +1,9 @@
 // src/pages/Cart.jsx
 import React, { useContext, useEffect } from "react";
 import { CartContext } from "../context/CartContext.jsx";
-import CartItem from "../cartItem";
+import CartItem from "../CartItem.jsx";
 import { Link } from "react-router-dom";
-import { ToggleContext } from "../context/ToogleBtn";
+import { ToggleContext } from "../context/ToogleBtn.jsx";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Cart = () => {
