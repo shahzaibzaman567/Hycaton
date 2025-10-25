@@ -1,0 +1,12 @@
+/* src/components/Header.css */
+
+/* Hamburger icon white in dark mode */
+.navbar-toggler-icon.invert {
+  filter: invert(1);
+  transition: filter 0.3s ease;
+}
+
+/* Optional: smooth transition for header background and text */
+header {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

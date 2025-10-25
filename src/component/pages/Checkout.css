@@ -1,0 +1,11 @@
+/* Dark mode placeholder */
+.dark-mode input::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+/* Light mode placeholder */
+input::placeholder {
+  color: #6c757d; /* Bootstrap default gray */
+  opacity: 1;
+}

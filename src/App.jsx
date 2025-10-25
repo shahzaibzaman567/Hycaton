@@ -1,16 +1,25 @@
-import { useState } from 'react'
-import './App.css'
+// ✅ App.jsx
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import { CartProvider } from "./component/context.jsx/cartcontext";
+import Header from "./component/header";
+import Home from "./component/pages/Home";
+import Cart from "./component/pages/cart";
+import Checkout from "./component/pages/checkout";
 
-function App() {
-
+const App = () => {
   return (
-    <>
-    {/* //h1 // */}
-    <h1 style={{textAlign:"center"}}>Haycaton</h1>
-     <br />
+    <CartProvider>
+      <Header />
+      <main className="py-4">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/checkout" element={<Checkout />} />
+        </Routes>
+      </main>
+    </CartProvider>
+  );
+};
 
-    </>
-  )
-}
-
-export default App
+export default App;
