@@ -72,7 +72,7 @@ const Home = () => {
       {/* ✅ Dynamic Banner */}
       <motion.div
         className={`card banner-card mb-4 overflow-hidden ${
-          isDark ? "bg-dark text-white" : "bg-light text-dark"
+          isDark ? "bg-dark text-white border border-white" : "bg-light text-dark border"
         }`}
         style={{
           position: "relative",
@@ -80,8 +80,12 @@ const Home = () => {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          transition: "all 0.3s ease",
         }}
-        whileHover={{ y: -5 }}
+        whileHover={{
+          y: -5,
+          boxShadow: "0 0 20px rgba(0, 123, 255, 0.5)",
+        }}
       >
         {matchedProduct ? (
           <>
